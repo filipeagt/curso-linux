@@ -39,4 +39,14 @@ Sintaxe:
 `us`: Tempo gasto rodando código que não pe kernel  
 `sy`: Tempo gasto rodando código do kernel  
 `id`: Tempo gasto em ociosidade  
-`wa`: Tempo gasto esperando por I/O 
+`wa`: Tempo gasto esperando por I/O  
+
+### Comando free
+Exibe a quantidade de memória livre e usada no sistema  
+free [opções]  
+
+`-b` Mostra o uso da meméria em bytes  
+`-k` idem, em kB  
+`-m` idem, em MB  
+`-t` Exibe uma linha que mostra os totais  
+`-s n` Operação contínua em intervalos de n segundos   
